@@ -24,7 +24,8 @@ body {
     height: 600px;
     width: 100%;
     background: #191919;
-    padding-top: 30px;
+    padding-top: 30px; 
+
 
 }
 .first-div-content{
@@ -308,7 +309,7 @@ article img{
     /* display: none; */
     position: fixed;
     width: 80%;
-    height: 80%;
+    height: 40%;
     top: 0;
     /* padding: 20px 0; */
     /* transition: all 0.5s ease; */
@@ -334,7 +335,7 @@ article img{
     
     /* border-bottom: 2px solid white; */
     font-size: 20px;
-    position: relative;
+    /* position: relative; */
 
 
 }
@@ -353,11 +354,11 @@ article img{
 
 
 .mobilelink-content a :hover {
-    /* background: var(--white-color); */
+    background: #ff004f;
     color: black;
-    padding: 10px 20px;
-    transition:2s;
-    transform :scale(1.1);
+    padding: 20px 0;
+    /* transition:2s; */
+    /* transform :scale(1.1); */
 
 }
 
