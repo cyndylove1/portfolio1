@@ -388,7 +388,7 @@ section{
     width: 270px;
     height: 400px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     
     
 
@@ -399,6 +399,7 @@ section{
     padding: 0 10px;
     display:block;
     margin-right: 90%;
+    /* overflow: hidden; */
     transition: all 1s ease;
     /* border-radius: 13px 13px 0 0; */
     /* display: flex; */
@@ -407,11 +408,6 @@ section{
 }
 .col:hover img{
     transition: all 1s ease;
-}
-.:hover{
-    background: rgb(62, 62,62);
-    /* transform: translateY(20px); */
- 
 }
 /* .col:before{
     content:"";
