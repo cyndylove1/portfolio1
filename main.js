@@ -18,6 +18,6 @@ function add(){
  })
  sr.reveal('.text-content',{delay:350, origin:'left'})
  sr.reveal('.text-img', {delay:350, origin:'right'})
- sr.reveal('.col,.container,.contact-form,.contact-img,.contact-me,.social,.end', {delay:350, origin:'bottom'})
+ sr.reveal('.col,.container,.contact-form,.contact-img,.contact-me,.social', {delay:350, origin:'bottom'})
 
        
