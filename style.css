@@ -375,8 +375,9 @@ article img{
 .service-title h1{
     color: #fff;
     font-size: 40px;
-    width: 1130px;
-    margin: 20px auto;
+    width: 90%;
+    margin: 20px 0;
+    /* margin-right: 20%; */
     text-align: center;
 }
 
@@ -387,7 +388,7 @@ article img{
     /* min-height: 400px; */
 }
 .card{
-    height: 300px;
+    height: 350px;
     width: 30%;
     padding: 20px 35px;
     background: #191919;
