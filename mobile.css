@@ -4,7 +4,8 @@
 
     .nav-mobile{
         display: flex;
-        padding: 0 30px;
+        /* padding: 0 60px; */
+        margin: 0 10%;
         
     }
     .first-div-content{
@@ -64,7 +65,7 @@
     .container{
         display: grid;
         margin-right: 30px;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .about-content{
         width: 100%;
@@ -74,7 +75,7 @@
     /* .container{ */
         /* flex-direction: column; */
         /* width: 100%; */
-    }
+    
     .about{
         height: 80%;
     }
@@ -85,8 +86,8 @@
     .about-text{
         flex-direction: column;
     }
-    .skill-title{
-        width: 65%;
+    .Skill-title{
+        width: 40%;
         border-radius: 60%;
     }
     .header h1{
@@ -98,6 +99,9 @@
         padding-right:70px;
         color:black;
     }
+    .service-title h1{
+        text-align: center;
+    }
 
    
     .contact-me{
@@ -105,32 +109,22 @@
         padding: 0 50px;
     }
     .button-two{
-        margin-right:15px;
-        
-    
-            
+        margin-right:15px;        
         
     }
-    .overlay{
-        height: 420px;
-        width: 100%;
-    
-    }
-    .overlay-title{
-        margin-right: 40px;
-        /* width: 50%; */
-        
-    }
-    .overlay-description{
-        padding-right:  30px;
-        /* width: 30%; */
-        flex-direction: column;
-        
-    }
-    .row{
+    .box{
         display: flex;
         flex-direction: column;
+    
     }
+    .card{
+        width: 70%;
+    }
+    
+    /* .Row{ */
+        /* display: flex; */
+        /* flex-direction: column; */
+    /* } */
 
 
    
