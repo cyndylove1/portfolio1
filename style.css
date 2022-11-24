@@ -113,7 +113,6 @@ body {
    
 }
 
-
 .text-content {
     display: flex;
     width: 190%;
@@ -124,7 +123,7 @@ body {
 }
 .text-content span{
     color:#ff004f;
-    font-size: 40px;
+    font-size: 50px;
 }
 .text-content a{
     text-decoration:none;
@@ -363,134 +362,6 @@ article img{
     /* transform :scale(1.1); */
 
 }
-
-
-/* second section starts here */
-section{
-    background: #101010;
-
-}
-.heading{
-    text-align: center;
-    
-    
-}
-.heading h1{
-    color:white;
-    font-size :35px;
-    padding: 30px 0;
-    position: relative;
-}
-.heading h1:after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform:translateX(-50%);
-    background: #ff004f;
-    height: 5px;
-    width:10%;
-}
-.porfolio-content{
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    /* margin-right:20px; */
-}
-.col{
-    background: white;
-    width: 270px;
-    height: 400px;
-    margin: 10px;
-    border-radius: 10px;
-    
-    
-
-}
-.col img{
-    width: 280px;
-    height: 300px;
-    padding: 0 10px;
-    display:block;
-    margin-right: 90%;
-    /* overflow: hidden; */
-    transition: all 1s ease;
-    /* border-radius: 13px 13px 0 0; */
-    /* display: flex; */
-    /* justify-content: space-around; */
-    
-}
-.col:hover img{
-    transition: all 1s ease;
-}
-/* .col:before{
-    content:"";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: var(--gradient),(to bottom, rgba(0,176,155,0.5));
-    z-index:2;
-    transition: 0.5s all;
-    opacity:0; */
-
-   
-}
-.layer{
-    height: 70px;
-    width: 350px;
-    padding: 5px;
-    bottom: 240px;
-    box-sizing: border-box;
-    position: absolute;
-    background: rgba(27,27,27,0.5);
-    color: #fff;
-    
-}
-.layer:hover{
-    background-color: rgb(62,62,62);
-    height: 100px;
-    color: white;
-    cursor: pointer;
-    /* margin: 30px; */
-    /* font-size: 40px; */
-
-  
-}
-.layer:hover h3{
-    transform: scale(1.2);
-    transition: all 1s ease;
-}
-.layer h3{
-    padding: 6px 40px;
-}
-.layer:hover h5{
-    transform: scale(1.2);
-    transition: all 1s ease;
-}
-.layer h5{
-    padding: 5px  40px;
-    
-}
-.btn{
-    background: #191919;
-    color: white;
-    padding: 10px 10px;
-    display: block;
-    margin: 10px 60px;
-    text-align: center;
-    text-decoration: none;
-}
-.btn a{
-    padding: 20px 10px;
-}
-.layer:hover h5{
-   
-}
-/* second section ends here */
 /* third section starts here */
 .inner{
     padding-top: 20px;
@@ -528,18 +399,27 @@ section{
     cursor: pointer;
 }
 .skill-title{
+    margin: 0 auto;
     display: flex;
+    background: #fff;
+    width: 20%;
+    border-radius: 50%;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
 }
+.skill-title h3{
+    text-align: center;
+}
 .img{
-    width: 90px;
-    height: 90px;
+    /* background: #fff; */
+    width: 50px;
+    height: 50px;
     position: relative;
     border-radius: 45px;
-    background: white;
+    /* background: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -726,13 +606,13 @@ footer button{
 
 }
 .social2 a{
-    height: 30px;
-    width: 80%;
+    /* height: 30px; */
+    width: 90%;
     color: #fff;
     padding: 7px 0;
     text-decoration: none;
     border: 2px solid #ff004f;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 25px;
 
 }
