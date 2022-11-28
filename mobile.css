@@ -123,14 +123,7 @@
 
     }
     
-    .contact{
-        grid-gap:2rem;
-        transition:.3s;
-        grid-template-columns:1fr;
-    }
-    .contact-form{
-        order:2;
-    }
+    
     .contact-img img{
         display: none;
         max-width:100%;

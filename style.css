@@ -589,7 +589,7 @@ section{
 
 
 .contact{
-    height: 480px;
+    /* border: 2px solid red; */
     background: #191919;
     
 }
@@ -599,6 +599,7 @@ section{
     margin-left:10%;
 }
 .contact-left{
+    /* border: 2px solid white; */
     padding: 30px 0;
     flex-basis: 35%;
 
@@ -607,6 +608,7 @@ section{
     color: #fff;
 }
 .contact-right{
+    /* border: 2px solid blue; */
     flex-basis:60%;
 }
 .sub-title{
