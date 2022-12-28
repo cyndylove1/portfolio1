@@ -87,7 +87,7 @@ body {
     font-weight: 600;
     display: inline-block;
     padding: 10px 20px;
-    /* margin: 10px 0; */
+    margin: 10px 0;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -250,7 +250,7 @@ body{
     justify-content: center;
     /* flex-wrap: wrap; */
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .title p{
     font-size: 1em;
@@ -269,14 +269,21 @@ body{
     border-radius: 10px;
 }
 .services .content-service .card .info h2{
-    font-size: 30px;
-    padding: 25px 30px;
+    font-size: 20px;
+    padding: 50px 30px;
+}
+.services .content-service .card:hover{
+    background: #000;
+    color: #fff;
 }
 .services .content-service .card .service-icon{
     color: #120683;
     font-size: 2em;
     text-align: center;
     transition: transform 0.5s ease;
+}
+.services .content-service .card .service-icon:hover{
+    color: #fff;
 }
 .services .content-service .card:hover .service-icon{
     transform: translateY(-10px);
@@ -289,6 +296,9 @@ body{
     font-size: 1em;
     font-weight: 700;
     margin: 10px;
+}
+.services .content-service .card .info h3:hover{
+    color: #fff;
 }
 
 
