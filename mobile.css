@@ -38,11 +38,15 @@
         flex-direction: column;
         padding: 20px 20px;
         padding-right: 15px;
+        margin-right: 25px;
 
+    }
+    .services .content-service .card .info h2{
+        font-size: 20px;
     }
     .portfolio-item img{
         width: 100%;
-        /* padding-right: 5px; */
+        padding-right: 5px;
         
     }
     .section-work h4{
