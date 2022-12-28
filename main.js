@@ -1,5 +1,12 @@
 
 
+
+window.addEventListener("scroll", function(){
+    const header = document.querySelector("header");
+    header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+
 var pagebody=document.querySelector(".page")
 var menu=document.querySelector(".menu-container") 
 var mobilelinks=document.querySelector(".mobilelinks-container")
@@ -16,8 +23,9 @@ function add(){
     reset: true
 
  })
- sr.reveal('.text-content',{delay:350, origin:'left'})
- sr.reveal('.text-img', {delay:350, origin:'right'})
- sr.reveal('.col,.container,.contact-left,.contact-right,.contact-me,.button-two,.social,.btn3,.social2', {delay:350, origin:'bottom'})
+ sr.reveal('.content',{delay:350, origin:'left'})
+ sr.reveal('.column col-left', {delay:350, origin:'left'})
+ sr.reveal('.column col-right', {delay:350, origin:'right'})
+ sr.reveal('.card,.skill-bar,.portfolio-item,.section-heading,', {delay:350, origin:'bottom'})
 
        

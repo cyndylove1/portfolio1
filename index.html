@@ -2,244 +2,279 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="defaults.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-
-<body class="page">
-
-
-
-
-    <nav>
-        <div class="first-div">
-            <div class="nav-mobile">
-                <div class="logo">
-                    <div class="logo-content">
-                        <h5>C'</h5>
-                        <div class="logo-item">
-                            <h6>N</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-container" onclick="add()">
-                    <div class="menu"></div>
-
-                </div>
-
+<body>
+    <header>
+        <a href="#" class="brand">Cyndy</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="#main">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skill-section">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="content">
+            <h2>Hello, I'm<br><span>Nweke Cynthia</span></h2>
+            <div class="animated-text">
+                <h3>Web Developer</h3>
+                <h3>Graphic Developer</h3>
             </div>
-
-            <div class="first-div-content">
-                <ul>
-                    <a href="#" class="active-link">
-                        <li>Home</li>
-                    </a>
-                    <a href="#services" class="">
-                        <li>Services</li>
-                    </a>
-                    <a href="#inner" class="">
-                        <li>Skills</li>
-                    </a>
-                    <a href="#work" class="">
-                        <li>Work</li>
-                    </a>
-                    <a href="#contactus" class="">
-                        <li>Contact-us</li>
-                    </a>
-
-                </ul>
-            </div>
-            <div class="logo-1">
-                <div class="logo-content-1">
-                    <h5>C'</h5>
-                    <div class="logo-item-1">
-                        <h6>N</h6>
-                    </div>
-                </div>
-
-            </div>
-            <div class="text">
-                <div class="text-content">
-                    <h1>Hello I'm <span>Cynthia</span> Nweke</h1>
-                    <p>I craft user interfaces using modern </br>frontend web technologies.</br>
-                        Free feel to say hi</p>
-                        
-                        <a href="About.html"><button class="about-write-up">About-me</button></a>
-
-                </div>
-
-                <div class="text-img"></div>
+            <a href="#"class="btn">Download Cv</a>
+            <div class="media-icons">
+                <a href="https://www.linkedin.com/in/cyndylove1" target="_blank"><i class="fab fa-linkedin"></i></a>  
+                <a href=" https://github.com/cyndylove1" target="_blank"><i class="fab fa-github"></i></a>  
+                <a href=" https://twitter.com/cyndylove81" target="_blank"><i class="fab fa-twitter"></i></a>  
             </div>
         </div>
-
-    </nav>
-
-    </nav>
-    <div class="mobilelinks-container">
-        <div class="mobilelink-content">
-            <ul>
-                <a href="#" class="active-link">
-                    <li>Home</li>
-                </a>
-                <a href="#services" class="">
-                    <li>Services</li>
-                </a>
-                <a href="#inner" class="">
-                    <li>Skills</li>
-                </a>
-                <a href="#work" class="">
-                    <li>Work</li>
-                </a>
-                <a href="#contactus" class="">
-                    <li>contact-us</li>
-                </a>
-
-            </ul>
-
-        </div>
-
-    </div>
-
-   <div class="service" id="services">
-    <div class="service-title">
-        <h1> Services</h1>
-    </div>
-    <div class="box">
-        <div class="card">
-            <div class="card-text">
-                <p>
-                    Let's talk</br> about your project.
-                </p>
-            </div>         
-           <a href="#contact"><button>Connect</button></a>
-        </div>
-        <div class="card">
-            <i class="fas fa-user"></i>
-            <h5>Web Design</h5>
-            <div class="pra">
-                <p>
-                    With ample years of</br> experience in areas of</br> design, i develop and deliver</br> beautiful and highly scalable</br> web applications that </br>functions well across </br>multiple device.
-                </p>
-                
-            </div>
-            
-            
-        </div>
-    </div>
-   </div>
-
-
-    <div class="inner" id="inner">
-        <div class="header">
-            <h1>My Skills</h1>
-        </div>
-        <div class="container">
-            <div class="skill-box">
-                <div class="Skill-title">
-                    <img src="./img/icons8-css3-48.png" alt="">
-                </div>
-                <h3>CSS 3</h3>
-            </div>
-            <div class="skill-box">
-                <div class="Skill-title">
-                    <img src="./img/icons8-html-5-48.png" alt="">
-                </div>
-                <h3>HTML 5</h3>
-            </div>
-            <div class="skill-box">
-                <div class="Skill-title">
-                    <img src="./img/icons8-javascript-48.png" alt="">
-                </div>
-                <h3>JAVASCRIPT</h3>
-            </div>
-            <div class="skill-box">
-                <div class="Skill-title">
-                    <img src="./img/icons8-react-40.png" alt="">
-                </div>
-                <h3>REACT.JS</h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="contact-me" id="contact">
-        <p>Let Me Get You A Beautiful Website.</p>
-       <a class="button-two" href="mailto:nwekecynthia2015@gmail.com" target="blank">Hire Me</a>
-    </div>
-
-        
-    <div class="contact" id="contactus">
-        <div class="container-content">
-            <div class="Row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact <span>Me</span></h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>nwekecynthia2015@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>09034023722</p>
-
-                    <div class="social">
-                        <li><a href="https://www.linkedin.com/in/cyndylove1" target="_blank" class=" fab fa-linkedin"></a></li>
-                       <li><a href="https://www.twitter.com/cyndynweke81" target="_blank" class=" fab fa-twitter-square"></a>
-                       </li>
-                       <li><a href="https://github.com/cyndylove1" target="_blank" class=" fab fa-github"></a></li>
-                       <li><a href="https://github.com/cyndylove1" target="_blank" class=" fab fa-instagram"></a></li>
-
-                    </div>
-                </div>                     
-                <div class="contact-right">
-                    <form>
-                        <input type="text"name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email"  placeholder="Your Email" required>
-                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
-                        <button type= "submit" class="btn2">Submit</button>
-                    </form>
-
-                </div>
-            </div>  
-        </div>
-    </div>
-        
+       
+       
+    </section>
     
-    <footer>
-       <div class="btn3">
-        <a href="https://www.linkedin.com/in/cyndylove1"><button>contact developer<span><i class="fa-solid fa-arrow-right"></i></button></span></a>
-       </div> 
-        <div class="social2">
-           <li><a href="https://www.facebook.com/NwekeCynthia" target="_blank"  class="fa-brands fa-facebook-f"></a></li> 
-           <li><a href="https://www.twitter.com/cyndynweke81" target="blank"  class="fa-brands fa-twitter"></a></li> 
-           <li><a href="https://www.linkedin.com/in/cyndylove1" target="_blank" class="fa-brands fa-linkedin-in"></a></li>  
-            
+    <section class="about" id="about">
+       <div class="title">
+        <h2 class="section-title">About Me</h2>
+       </div>
+       <div class="content">
+        <div class="column col-left">
+            <div class="img-card">
+                <img src="./img/cyndy.png" alt="">
+            </div>
         </div>
-        &copy 2022 Built and Designed by Nweke Cynthia
-    </footer>
-        
+        <div class="column col-right">
+            <h2 class="content-title">Hey There! I'm Cynthia Nweke</h2>
+            <p class="paragraph-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fuga deleniti beatae placeat error? Doloremque, nostrum. Ipsa vel repellendus rem veniam, et minus. Autem quam aliquam quis repellat magni nemo.<br/>
+                Since beginining of my journery as a front-end developer over 5 years ago,I've done remote works for agencies for both business and consumers use.I craft user interfaces using modern frontend web ,I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations,technologies.my Expertise is in the area of my resposive design.With every line of code,I strive to make the web a beautiful place. 
+            </p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+       </div>
+    </section>
+     <section class="services" id="services">
+        <div class="title">
+            <h2 class="section-title">My Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aspernatur provident, unde sit nemo reiciendis sed vel doloremque culpa ea cupiditate velit similique, quasi iste alias omnis dicta accusantium corporis.</p>
+        </div>
+        <div class="content">
+            <div class="card">
+                <div class="info">
+                    <h2> Let's talk</br> about your project.</h2>
+                    <a href="#hire-me"class="btn">Connect</a>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="service-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="info">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi illum debitis neque quos error totam, provident aspernatur cupiditate quia voluptate aliquid deserunt iste ducimus, dolor ad quidem vitae, perferendis architecto.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="service-icon">
+                    <i class="fas fa-file-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi illum debitis neque quos error totam, provident aspernatur cupiditate quia voluptate aliquid deserunt iste ducimus, dolor ad quidem vitae, perferendis architecto.</p>
+                </div>
+            </div>
+        </div>
+
+     </section>
 
 
+    
+
+    <Section id="skill-section">
+        <div class="header-skill-head">
+            <h2>My <span>Skills</span></h2>
+            <p>Here is my skills to represent my Expertise</p>
+        </div>
+        <div class="skill-main">
+            <div class="skill-bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P class="percent">90%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P class="percent">90%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>SASS</p>
+                    <P class="percent">80%</P>
+                </div>
+                <div class="bar">
+                    <span class="sass"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Javascript</p>
+                    <P class="percent">80%</P>
+                </div>
+                <div class="bar">
+                    <span class="js"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>REACT </p>
+                    <P class="percent">70%</P>
+                </div>
+                <div class="bar">
+                    <span class="react"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>node js</p>
+                    <P class="percent">75%</P>
+                </div>
+                <div class="bar">
+                    <span class="node"></span>
+                </div>
+            </div>
+        </div>
+
+    </Section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-title">
+            <h3>Portfolio</h3>
+            <div class="port-text">
+                <h2>My Amazing Work</h2>
+                <p>Most common methods for designing websites that work well on desktop</br> is responsive and adaptive design</p>
+            </div>       
+        </div>
+        <div class="portfolios">
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="./img/Capture antic.PNG" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Antic</h3>
+                    <h4>Html,Css and Javascript</h4>
+                    <div class="icons">
+                        <a href="" target="_blank">
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </a>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="./img/Capture.PNG" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Managing</h3>
+                    <h4>Html,Css and Javascript</h4>
+                    <div class="icons">
+                        <a href="" target="_blank">
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </a>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="./img/foodplug.PNG" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Foodplug</h3>
+                    <h4>Html,Css and Javascript</h4>
+                    <div class="icons">
+                        <a href="" target="_blank">
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </a>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="./img/dx column.PNG" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Column design</h3>
+                    <h4>Html,Css and Javascript</h4>
+                    <div class="icons">
+                        <a href="" target="_blank">
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </a>
+
+                    </div>
+                    
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+            
+
+    </section>
+    
+    <div class="text-center" id="hire-me">
+        <div class="section-cover">
+            <div class="container-3">
+                <div class="section-heading">
+                    <h4 class="section-work">Let's work together</h4>
+                    <p class="section-hire">I'm avaliable for freelancer projects. Hire me and get your projects done.</p>
+                    <div class="hire-me-btns">
+                        <a class="btn btn-white" href="mailto:nwekecynthia2015@gmail.com" target="blank">Hire Me</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <section class="contact" id="contact">
+        <div class="contact-us">
+            <div class="title">
+                <h2>Contact</h2>
+            </div>
+            <div class="box">
+                <div class="contact-form"></div>
+                <div class="contact-info"></div>
+                <div class="contact-map"></div>
+            </div>
+
+        </div>
+
+    </section>
+    
     <script src="main.js"></script>
-    <script type="text/javascript" scr="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        // var typed = new Typed(".input",{
-        //     strings:["Cynthia Nweke.","a Frontend Developer."],
-        //     typeSpeed:70,
-        //     backSpeed:60,
-        //     duration:2000,
-        //     loop:true
-
-        // });
-        
-
-    </script>
     
-
 </body>
-
+    
 </html>
