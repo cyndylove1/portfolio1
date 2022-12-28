@@ -258,7 +258,7 @@ body{
 }
 .services .content .card{
     background: #fff;
-    width: 340px;
+    width: 90%;
     margin: 10px;
     padding: 25px;
     justify-content: center;
@@ -273,7 +273,7 @@ body{
 }
 .services .content .card .service-icon{
     color: #120683;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     transition: transform 0.5s ease;
 }
@@ -318,7 +318,7 @@ body{
 .header-skill-head:before{
     content: '';
     position: absolute;
-    top: 30px;
+    top: 35px;
     left: 50%;
     width: 140px;
     height: 4px;
@@ -328,7 +328,7 @@ body{
 .header-skill-head:after{
     content: '';
     position: absolute;
-    top: 25px;
+    top: 28px;
     left: 50%;
     width: 15px;
     height: 15px;
@@ -343,7 +343,7 @@ body{
     color: #120683;
 }
 .header-skill-head p{
-    padding-top: 10px;
+    padding-top: 20px;
     color: #000;
 }
 .skill-main{
@@ -497,7 +497,7 @@ body{
 }
 .port-text h2{
     color: #000;
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 25px;
 }
 
@@ -597,7 +597,7 @@ body{
 }
 #hire-me .section-work{
     color: #fff;
-    font-size:40px;
+    font-size:30px;
 }
 
 #hire-me .section-heading .section-hire{

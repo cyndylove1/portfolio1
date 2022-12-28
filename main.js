@@ -24,8 +24,6 @@ function add(){
 
  })
  sr.reveal('.content',{delay:350, origin:'left'})
- sr.reveal('.column col-left', {delay:350, origin:'left'})
- sr.reveal('.column col-right', {delay:350, origin:'right'})
- sr.reveal('.card,.skill-bar,.portfolio-item,.section-heading,', {delay:350, origin:'bottom'})
+ sr.reveal('.content,.card,.skill-main,.portfolios,.container-3,', {delay:350, origin:'bottom'})
 
        
