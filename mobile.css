@@ -19,30 +19,30 @@
     .main .content{
         text-align: center;
     }
-    .about .content{
+    .about .content-img{
         flex-direction: column;
     }
-    .about .content .column{
+    .about .content-img .column{
         position: relative;
         width: 100%;
         padding: 20px 0;
 
     }
-    .about .content .col-left .img-card img{
+    .about .content-img .col-left .img-card img{
         width: 100%;
     }
-    .about .content .col-right{
+    .about .content-img .col-right{
         margin: 40px 0;
     }
-    .services .content{
+    .services .content-service{
         flex-direction: column;
-        padding: 20px 0 ;
+        padding: 20px 20px;
         padding-right: 15px;
 
     }
     .portfolio-item img{
         width: 100%;
-        padding-right: 5px;
+        /* padding-right: 5px; */
         
     }
     .section-work h4{
