@@ -19,7 +19,7 @@ function add(){
 
  const sr = ScrollReveal ({
     distance: '60px',
-    duration: 3000,
+    duration: 2000,
     reset: true
 
  })
