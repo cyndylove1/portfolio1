@@ -392,7 +392,6 @@ body{
 .skill-main .skill-bar .info{
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
 }
 .skill-bar .bar{
     width: 100%;
