@@ -31,6 +31,9 @@
     .about .content-img .col-left .img-card img{
         width: 100%;
     }
+    .about .content-img .col-right .paragraph-text{
+        font-size: 1.2em;
+    }
     .about .content-img .col-right{
         margin: 40px 0;
     }
@@ -43,6 +46,9 @@
     }
     .services .content-service .card .info h2{
         font-size: 25px;
+    }
+    .services .content-service .card .info{
+        font-size: 18px;
     }
     .portfolio-item img{
         width: 100%;
