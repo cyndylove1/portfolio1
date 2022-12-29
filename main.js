@@ -19,11 +19,11 @@ function add(){
 
  const sr = ScrollReveal ({
     distance: '60px',
-    duration: 2000,
+    duration: 3000,
     reset: true
 
  })
- sr.reveal('content.',{delay:350, origin:'left'})
+ sr.reveal('.content',{delay:350, origin:'left'})
  sr.reveal('.content-img,.content-service,.skill-main,.portfolio-item,.container-3', {delay:350, origin:'bottom'})
 
        
