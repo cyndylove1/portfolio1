@@ -713,7 +713,7 @@ body{
 }
 .contact-form input, .contact-form textarea{
     border: none;
-    color: #120683;
+    color: #fff;
     background: #120683;
     font-size: 20px;
     margin-bottom: 10px;
