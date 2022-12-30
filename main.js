@@ -24,6 +24,6 @@ function add(){
 
  })
  sr.reveal('.content',{delay:350, origin:'left'})
- sr.reveal('.content-img,.content-service,.skill-main,.container,.footer-container,.portfolio-item,.container-3', {delay:350, origin:'bottom'})
+ sr.reveal('.content-img,.content-service,.skill-main,.container-6,.footer-container,.portfolio-item,.container-3', {delay:350, origin:'bottom'})
 
        

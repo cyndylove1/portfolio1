@@ -657,7 +657,7 @@ body{
 #contact{
     padding: 100px 10%;
 }
-.container{
+.container-6{
     /* display: flex; */
     width: 100%;
     display: flex;
@@ -665,7 +665,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.contact .container .content{
+.contact .container-6 .content{
     display: flex;
     justify-content: space-between;
     width: 100%;

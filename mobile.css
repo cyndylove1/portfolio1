@@ -114,6 +114,9 @@
     .footer-container .info ul li{
         margin:5px 0;
     }
+    .footer-container .follow ul li a{
+        margin-left: 4px;
+    }
     .footer-container hr{
         width:100%;
         height:2px;
