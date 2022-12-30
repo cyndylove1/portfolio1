@@ -23,7 +23,7 @@ function add(){
     reset: true
 
  })
- sr.reveal('.content',{delay:350, origin:'left'})
+ sr.reveal('.content-main',{delay:350, origin:'left'})
  sr.reveal('.content-img,.content-service,.skill-main,.contact,.footer-container,.portfolio-item,.container-3', {delay:350, origin:'bottom'})
 
        

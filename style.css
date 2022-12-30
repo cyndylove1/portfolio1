@@ -33,12 +33,12 @@ body {
 
 
 }
-.main .content h2{
+.main .content-main h2{
     color:#fff;
     font-size:2em;
     font-weight:700;
 }
-.main .content h2 span{
+.main .content-main h2 span{
     font-size:2em;
     font-size:600;
 }
@@ -79,7 +79,7 @@ body {
     border: none;
     color: #fff;
     background: #120683;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
     display: inline-block;
     padding: 10px 20px;
@@ -241,7 +241,7 @@ body{
 
 }
 .about .content-img .col-right .paragraph-text{
-    font-size: 1.5em;
+    font-size: 1.2em;
     
 
 }
@@ -280,8 +280,11 @@ body{
     border-radius: 10px;
 }
 .services .content-service .card .info h2{
-    font-size: 28px;
+    font-size: 25px;
     padding: 50px 30px;
+}
+.services .content-service .card .info p{
+    font-size: 20px;
 }
 .button{
     color: #fff;

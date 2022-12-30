@@ -15,10 +15,10 @@
     header .navigation{
         display:none;
     }
-    section{
-        /* padding: 80px 20px; */
+    .btn{
+        font-size: 1.3em;
     }
-    .main .content{
+    .main .content-main{
         text-align: center;
     }
 
