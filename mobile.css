@@ -114,9 +114,10 @@
     .footer-container .info ul{
         align-items:center;
         flex-direction:column;
+        /* margin-left:5px; */
     }
     .footer-container .info ul li a {
-        margin:5px 1px;
+        margin:5px 2px;
     }
     .footer-container .follow ul li {
         /* margin-right: 2px; */
