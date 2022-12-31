@@ -115,8 +115,8 @@
         align-items:center;
         flex-direction:column;
     }
-    .footer-container .info ul li {
-        margin:5px 3px;
+    .footer-container .info ul li a {
+        margin:5px 1px;
     }
     .footer-container .follow ul li {
         /* margin-right: 2px; */
